@@ -1,76 +1,109 @@
 # Gallery
-###### Description
-This is an application that tracks my gallery and allows users to view my photos and also copy the links of the photos.
-Currently the admin is the only one with perimisions to edit the photos or make any form of changes to the application.
-###### Author
-James Gathuru
-###### Published
-* 17/6/2019
 
-### Application Functionality
-you can:
+> A personal gallery application that I display my photos for others to see.
 
-1. View different photos that interest you.
-2. Click on a single photo to expand to view details of the image.
-3. Search for different categories of photos and view them as well
-4. View photos based on the location they were taken or category.
+## Author
 
-### Installations
+> By **James Gathuru**
 
-1. Clone the repository with:
-`git clone https://github.com/jamesgathuru001/gallery.git`
-2. You will then have to unzip the zipped format of the repo
-3. You will need to install all dependencies by running this command:
-*first make sure your requirements.txt file is like this
-`config==0.3.9`
-`dj-database-url==0.5.0`
-`Django==1.11`
-`django-bootstrap3==10.0.1`
-`django-heroku==0.3.1`
-`gunicorn==19.9.0`
-`Pillow==5.2.0`
-`psycopg2==2.7.5`
-`python-decouple==3.1`
-`pytz==2018.5`
-`whitenoise==4.0`
-`pip install -r requirements.txt`
-* if not use this command:
-`pip freeze > requirements.txt`
+> -----------------------------------------------------------
 
-4. To use the application locally you wil have to create a postgress database
-follow these steps to get the app up and running:
-* in your psql:
-`CREATE DATABASE gallery;`
-* in your terminal migrate with:
-`python3.6 manage.py migrate`
-* serve the application with:
-`python manage.py runserver`
-* open the app on localhost:8000
+## Description
 
-## Technologies used
-1. Django 1.11
-2. Python3.6
-3. HTML and Css
+> This is a web application that allows various users to view different photos that interests them,view its details such as the location it was taken, copy a link to the photo and even search for different categories.
 
-## License
-MIT License
+## User Stories
 
-Copyright (c) 2019 James Gathuru
+As a user I would like:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
+> * to view the different categories.
+> * to different photos that interest me.
+> * to view photos based on the location they were taken.
+> * to copy a link to the photo to share with my friends.
+
+## How to use it
+
+> * Internet connection
+> * Click <br/>
+  or <br/>
+> * Copy  and  Paste the link on your prefered browser
+
+<!-- ## How it works
+
+> * A user needs to sign up
+> * A user needs to sign in to vote and post Gallery
+> * A user can also create categories and post Gallery within the application -->
+
+## Technologies Used
+
+> * Python3.6
+> * Django framework
+> * Bootstrap
+> * PostgreSQL
+
+## Setup/Installation Requirements
+
+### Prerequisites
+
+> * Internet access
+> * ```git clonehttps://github.com/jamesgathuru001/gallery.git```
+> * ```cd Gallery```
+
+#### To install a virtual environment
+
+> * ```python3.6 -m venv virtual``` 
+> * ```source virtual/bin/activate```
+
+#### To install all dependencies
+
+> * ```python3.6 -m pip install -r requirements.txt```
+
+#### To change the config_name parameter from 'production' to 'development'
+
+> * Run ```python3.6 manage.py runserver``` to get the app running  navigate to ```http://127.0.0.1:8000/``` and it will open in your browser
+
+## Dependancy Installments
+
+> * ```pip3 install python3.6```
+> * ```pip3 install django==1.11 django-heroku gunicorn whitenoise python-decouple whitenoise django-bootstrap3```
+
+<!-- ## Specifications
+
+> * To see the projects specifications refer to the [SPECS.md](SPECS.md) file for more details. -->
+
+## Known Bugs
+
+> It does not have bugs.But if any problems should occur, email me at jamesgathuru001@gmail.com
+
+> * N/B Also it is not finished yet...more features and functionalities are still being worked on.
+
+## Support and Contact Details
+
+> You can reach out to me at jamesgathuru001@gmail.com
+for Reviews, Advice, Collaborations and Comments
+
+## Licence
+
+> MIT License
+
+> Copyright (c) 2018 **James Gathuru**
+
+> Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
+> The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+> --------------------------------------------------------
